@@ -1922,6 +1922,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #8490ff;
 }
 
+.navbar-brand img{
+  width: 40%;
+}
+
 @media (max-width: 992px) {
   .navbar-nav {
     margin-top: 10px;
