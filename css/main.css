@@ -1911,6 +1911,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.about_image img {
+  width: 40%;
+}
+
+
+
 .navbar-nav a {
   /* text-transform: uppercase; */
   font-weight: 300;
@@ -1927,19 +1933,66 @@ h1, h2, h3, h4, h5, h6 {
   height: 52px;
 }
 
+.mobile-backg{
+display: none;
+}
+
+.about_image_2_mb{
+  display:none!important;
+}
+
+#clients .row .uac img {
+  margin-left: 40px;
+  width: 80px;
+  }
+  #clients .row .waec img {
+    margin-left: 40px;
+    width: 160px;
+    }
+
+    #clients .row .wema img {
+      margin-left: 40px;
+      width: 80px;
+      }
+
+  
+
+  #clients .row  img {
+    margin-left: 40px;
+    width: 160px;
+    }
+
 @media (max-width: 768px) {
   .navbar-brand img{
-    width: 200px;
-    height: 52px;
+    width: 150px;
+    height: 39px;
   }
-  .navbar-brand button{
-    width: 50%;
-  }
+  .mobile-backg{
+    display: block !important;
+    }
+
+.normal-backg{
+  display: none !important;
+}
+
+.about_image{
+  display: none;
+}
+.about_image_2_mb{
+  display:block!important;
+}
+.about_image_2 {
+  display: none !important;
+}
+
+#clients .row .uac img {
+width: 80px;
+}
 }
 @media (max-width: 1024px) {
   .navbar-brand img{
-    width: 200px;
-    height: 52px;
+    width: 150px;
+    height: 39px;
   }
 }
 
@@ -1954,6 +2007,24 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0;
   }
 }
+
+/* --------------------------------------- */
+
+/* .service_home img {
+  width: 100%;
+} */
+.hero-img {
+  background-image: url("../img/special_1.jpg") !important;
+    height: 360px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 
 .section-gap {
   padding: 120px 0;
